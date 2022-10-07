@@ -41,9 +41,9 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['benchmarks', 'diagnostics', 'examples', 'tests']),
     install_requires=[
         "boltons>=20.2.1",
-        "numpy~=1.19.0",
-        "scipy~=1.5.0",
-        "torch~=1.11.0",
+        "numpy~=1.22.0",
+        "scipy~=1.9.0",
+        "torch~=1.12.1",
         "trampoline>=0.1.2",
     ],
     python_requires='~=3.6',
